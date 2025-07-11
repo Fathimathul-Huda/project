@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#head{
+    text-decoration: none;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+.logos svg{
+    width: 32px;
+    height: 32px;
+    
+}
+.center{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    margin-left: 10%;
+}
+.right{
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    margin-right: 15%;
+    
+}
+.right-logos{
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    margin-right: 5%;
+}
