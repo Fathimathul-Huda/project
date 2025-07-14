@@ -110,6 +110,13 @@
     border-radius: 9px;
     width: 100%;
 }
+.carousel-inner{
+    margin-left: 5%;
+}
+.carousel-item img{
+    width: 500px;
+    height: 500px;
+}
 
 
 #explore{
@@ -150,4 +157,31 @@
 }
 #sub-support p{
     font-size: 15px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding: 30px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}.footer div{
+    min-width: 180px;
+    margin-bottom: 20px;
+}
+.footer h1{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.footer a{
+    display: block;
+    text-decoration: none;
+    color: #ccc;;
+    font-size: 14px;
+    margin: 9px;
+}
+.footer a:hover{
+    color: white;
 }
